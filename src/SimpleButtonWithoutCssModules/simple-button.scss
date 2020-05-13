@@ -1,0 +1,25 @@
+.Button {
+  background: violet;
+
+  &:hover, {
+    background: green;
+  }
+  &:focus {
+    background: blue;
+    &:hover {
+      background: #61DAFB;
+    }
+  }
+  &:active {
+    background: red;
+  }
+
+  &.big {
+    height: 100px;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+}

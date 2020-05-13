@@ -6,16 +6,16 @@ import {SimpleButton} from "../SimpleButton/simple-button";
 // import {storiesOf} from "@storybook/react";
 
 
-export default {
-    title: 'Button',
-    decorators: [
-        withPseudo
-    ],
-    parameters: {
-        withPseudo: {
-            attributes: []
-        }
-    }
-};
-
-export const simpleButton2 = () => <SimpleButton label={'ButtonLabel'}/>;
+// export default {
+//     title: 'Button',
+//     decorators: [
+//         withPseudo
+//     ],
+//     parameters: {
+//         withPseudo: {
+//             attributes: []
+//         }
+//     }
+// };
+//
+// export const simpleButton2 = () => <SimpleButton label={'ButtonLabel'}/>;
