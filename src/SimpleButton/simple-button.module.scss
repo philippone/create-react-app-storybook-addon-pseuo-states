@@ -17,6 +17,9 @@
   &.big {
     height: 100px;
   }
+  &.rounded {
+    border-radius: 50%;
+  }
 
   &:disabled {
     opacity: 0.4;

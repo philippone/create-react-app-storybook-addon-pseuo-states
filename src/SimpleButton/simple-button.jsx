@@ -11,7 +11,8 @@ export const SimpleButton = (props) => {
             disabled={props.disabled}
             className={classNames(
                 style.Button,
-                {[style.big]: props.isBig}
+                {[style.big]: props.isBig},
+                {[style.rounded]: props.rounded}
             )}
         >
             {props.label}
