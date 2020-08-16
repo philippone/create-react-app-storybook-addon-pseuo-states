@@ -2923,9 +2923,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@ergosign/storybook-addon-pseudo-states-react@file:../../storybook-pseudo-states/src/react/ergosign-storybook-addon-pseudo-states-react-0.0.1-alpha.32.tgz":
-  version "0.0.1-alpha.32"
-  resolved "file:../../storybook-pseudo-states/src/react/ergosign-storybook-addon-pseudo-states-react-0.0.1-alpha.32.tgz#93cb13ffbd4af74b2da6f3f6857be97cad8e0e6b"
+"@ergosign/storybook-addon-pseudo-states-react@^0.0.1-alpha.33":
+  version "0.0.1-alpha.33"
+  resolved "https://registry.yarnpkg.com/@ergosign/storybook-addon-pseudo-states-react/-/storybook-addon-pseudo-states-react-0.0.1-alpha.33.tgz#92c4a64df0525edc3384fa2c0c16c0d3e3c17d77"
+  integrity sha512-2bMv4PGr6WkQG5SDxjpTHotqwJCN+1TErSh8a9aeDa8SGCMzDO4EJLXJ9rBNrIm67nAxjToS12QKqMq4VbshKg==
 
 "@hapi/address@2.x.x":
   version "2.1.4"
