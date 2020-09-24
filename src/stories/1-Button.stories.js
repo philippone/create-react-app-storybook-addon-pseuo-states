@@ -12,7 +12,8 @@ export default {
     parameters: {
         withPseudo: {
             pseudos: [...PseudoStatesDefault, 'focus & hover'],
-            attributes: [...AttributesStatesDefault, {name:'isBig', value: 'really big'}],
+            attributes: [...AttributesStatesDefault],
+            permutations: [{attr:'isBig', value: 'really big'}]
         }
     }
 };
