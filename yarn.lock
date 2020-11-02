@@ -13249,10 +13249,10 @@ postcss-pseudo-class-any-link@^6.0.0:
     postcss "^7.0.2"
     postcss-selector-parser "^5.0.0-rc.3"
 
-postcss-pseudo-classes@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/postcss-pseudo-classes/-/postcss-pseudo-classes-0.2.1.tgz#694dfe6622c9bd5a699730582b1341c7b110f416"
-  integrity sha512-qEuco5PmPo9AaXfYgnIflVTxUXNnhOIpv3/ptaVz7NRN09oy7Eqa2Smc+htoz0d91AE9JkR8Mebtf/ofamlWWQ==
+postcss-pseudo-classes@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/postcss-pseudo-classes/-/postcss-pseudo-classes-0.3.0.tgz#0236c07f0d8bbb2b1f03658253d4404a24501c4d"
+  integrity sha512-kimffn5E9/CMlXPaeEDF5hSiLnOj9RjMjnaQBXlnnQtokCrDH/RMPNT5DaVkm4HQIepMdxoKG9ers1HFrkx3Ww==
   dependencies:
     postcss "^7.0.0"
 

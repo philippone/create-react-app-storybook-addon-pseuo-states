@@ -18,7 +18,7 @@ export default {
     }
 };
 
-export const simpleButton = () => <SimpleButton label={'ButtonLabel'} rounded={boolean('rounded', false)}/>;
+export const simpleButton = () => <SimpleButton label={'ButtonLabel'} rounded={boolean('rounded', false)} />;
 
 
 
