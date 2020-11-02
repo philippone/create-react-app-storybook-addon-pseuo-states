@@ -13,7 +13,7 @@ export default {
         withPseudo: {
             pseudos: [...PseudoStatesDefault, 'focus & hover'],
             attributes: [...AttributesStatesDefault],
-            permutations: [{attr:'isBig', value: 'really big'}]
+            permutations: [{attr:'theme', value: 'dark'}, 'isBig']
         }
     }
 };
