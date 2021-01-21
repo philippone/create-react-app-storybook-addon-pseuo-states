@@ -20,9 +20,25 @@ export default {
 
 export const simpleButton = () => <SimpleButton label={'ButtonLabel'} rounded={boolean('rounded', false)} />;
 
+export const simpleButtonPermutation = () => <SimpleButton label={'ButtonLabel'} rounded={boolean('rounded', false)} />;
+simpleButtonPermutation.parameters = {
+    withPseudo: {
+        attributes: [...AttributesStatesDefault],
+        permutations: [{attr:'theme', label: 'Dark Theme', value: 'dark'}, {attr:'theme', label: 'Light Theme', value: 'light'}, 'isBig']
+    }
+}
+
+export const simpleButtonWithoutAttr = () => <SimpleButton label={'ButtonLabel'} rounded={boolean('rounded', false)} />;
+simpleButtonWithoutAttr.parameters = {
+    withPseudo: {
+        pseudos: [],
+        permutations: [{attr:'theme', label: 'Dark Theme', value: 'dark'}, {attr:'theme', label: 'Light Theme', value: 'light'}, 'isBig']
+    }
+}
 
 
-export const simpleButton__withoutCssModules = () => <SimpleButton__withoutCssModules label={'ButtonLabel'}/>;
+
+export const simpleButtonWithoutCssModules = () => <SimpleButton__withoutCssModules label={'ButtonLabel'}/>;
 
 // export const text = () => <Button onClick={action('clicked')}>Hello Button</Button>;
 //

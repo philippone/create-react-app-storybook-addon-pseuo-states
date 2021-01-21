@@ -1,7 +1,7 @@
 .Button {
   background: violet;
 
-  &:hover, {
+  &:hover {
     background: green;
   }
   &:focus {
@@ -19,6 +19,17 @@
   }
   &.rounded {
     border-radius: 50%;
+  }
+
+  &.dark {
+    &:hover {
+      background: darkgreen;
+    }
+  }
+  &.light {
+    &:hover {
+      background: lightgreen;
+    }
   }
 
   &:disabled {

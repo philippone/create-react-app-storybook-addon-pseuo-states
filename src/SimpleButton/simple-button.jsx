@@ -12,6 +12,8 @@ export const SimpleButton = (props) => {
             className={classNames(
                 style.Button,
                 {[style.big]: props.isBig},
+                {[style.dark]: props.theme === 'dark'},
+                {[style.light]: props.theme === 'light'},
                 {[style.rounded]: props.rounded}
             )}
         >
