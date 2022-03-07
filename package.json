@@ -36,7 +36,7 @@
     ]
   },
   "devDependencies": {
-    "@ergosign/storybook-addon-pseudo-states-react": "0.0.1-alpha.45",
+    "@ergosign/storybook-addon-pseudo-states-react": "0.0.1-alpha.59",
     "@storybook/addon-actions": "6.1.14",
     "@storybook/addon-docs": "6.1.14",
     "@storybook/addon-knobs": "6.1.14",
